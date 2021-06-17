@@ -1,0 +1,6 @@
+functions:
+  beforeTodoCreate:
+    type: trigger.before
+    handler:
+      code: src/triggers/beforeTodoCreate/handler.js
+    operation: Todo.create
